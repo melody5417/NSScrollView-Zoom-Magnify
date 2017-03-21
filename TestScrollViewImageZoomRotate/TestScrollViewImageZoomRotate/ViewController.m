@@ -85,12 +85,12 @@
     
     
     if (newDocumentSize.width < self.scrollview.contentView.frame.size.width) {
-        newImageViewOrigin.x = (self.scrollview.contentView.frame.size.width - newImageViewSize.width) / 2 + self.marginInsets.left;
+        newImageViewOrigin.x = (self.scrollview.contentView.frame.size.width - newImageViewSize.width) / 2;
         newDocumentSize.width = self.scrollview.contentView.frame.size.width;
     }
     
     if (newDocumentSize.height < self.scrollview.contentView.frame.size.height) {
-        newImageViewOrigin.y = (self.scrollview.contentView.frame.size.height - newImageViewSize.height) / 2 + self.marginInsets.bottom;
+        newImageViewOrigin.y = (self.scrollview.contentView.frame.size.height - newImageViewSize.height) / 2;
         newDocumentSize.height = self.scrollview.contentView.frame.size.height;
     }
     
